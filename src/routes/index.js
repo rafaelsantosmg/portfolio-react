@@ -3,7 +3,7 @@ import { Route, Switch } from "react-router-dom";
 import Home from "../components";
 import Resume from "../components/Resume";
 import About from '../components/About';
-import Portfolio from "../components/Portfolio";
+import Projetos from "../components/Projetos";
 // import Contact from "../components/Contact";
 
 export default function Routes() {
@@ -12,7 +12,7 @@ export default function Routes() {
       <Route exact path="/" component={ Home } />
       <Route exact path="/resume" component={ Resume } />
       <Route exact path="/about" component={ About } />
-      <Route exact path="/portfolio" component={ Portfolio } />
+      <Route exact path="/projetos" component={ Projetos } />
       {/* <Route exact path="/contact" component={ Contact } /> */}
     </Switch>
   );

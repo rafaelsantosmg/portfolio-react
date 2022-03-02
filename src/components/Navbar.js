@@ -53,7 +53,7 @@ const menuItems = [
   { listIcon: <Home />, listText: "Home", listPath: "/" },
   { listIcon: <AssignmentInd />, listText: "Resume", listPath: "/resume" },
   { listIcon: <InfoIcon />, listText: "About", listPath: "/about" },
-  { listIcon: <Apps />, listText: "Portfolio", listPath: "/portfolio" },
+  { listIcon: <Apps />, listText: "Projetos", listPath: "/projetos" },
   // { listIcon: <ContactMail />, listText: "Contact", listPath: "/contact" },
 ];
 

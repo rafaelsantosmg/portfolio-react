@@ -3,10 +3,8 @@ import { Link } from 'react-router-dom';
 import { makeStyles } from "@material-ui/core/styles";
 import BottomNavigation from "@material-ui/core/BottomNavigation";
 import BottomNavigationAction from "@material-ui/core/BottomNavigationAction";
-import Facebook from "@material-ui/icons/Facebook";
 import Twitter from "@material-ui/icons/Twitter";
 import Instagram from "@material-ui/icons/Instagram";
-import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 import GitHubIcon from '@material-ui/icons/GitHub';
 
 const useStyles = makeStyles({
@@ -32,12 +30,6 @@ const Footer = () => {
       <Link to={ { pathname: 'https://github.com/rafaelsantosmg' } } target="_blank">
         <BottomNavigationAction
           icon={ <GitHubIcon /> }
-          className={ classes.root }
-        />
-      </Link>
-      <Link to={ { pathname: 'https://www.facebook.com/helcksp' } } target="_blank">
-        <BottomNavigationAction
-          icon={ <Facebook /> }
           className={ classes.root }
         />
       </Link>

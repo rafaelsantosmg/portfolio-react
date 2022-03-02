@@ -1,15 +1,16 @@
-import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
+import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
 import { Link } from 'react-router-dom';
-import Box from "@material-ui/core/Box";
-import Grid from "@material-ui/core/Grid";
-import Card from "@material-ui/core/Card";
-import CardActionArea from "@material-ui/core/CardActionArea";
-import CardContent from "@material-ui/core/CardContent";
-import CardMedia from "@material-ui/core/CardMedia";
-import Typography from "@material-ui/core/Typography";
+import Box from '@material-ui/core/Box';
+import Grid from '@material-ui/core/Grid';
+import Card from '@material-ui/core/Card';
+import CardActionArea from '@material-ui/core/CardActionArea';
+import CardContent from '@material-ui/core/CardContent';
+import CardMedia from '@material-ui/core/CardMedia';
+import Typography from '@material-ui/core/Typography';
 
-import shoppingCart from "../images/shopping-cart.png";
+import shoppingCart from '../images/shopping-cart.png';
+import frontEndOnlineSore from '../images/front-end-online-store.png'
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
@@ -29,9 +30,21 @@ const projects = [
     image: shoppingCart,
     url: 'https://rafaelsantosmg.github.io/project-shopping-cart/',
   },
+  {
+    name: "Front-End Online Store",
+    description: `Projeto desenvolvido utilizando React, e metodologias ágeis, PropDrilling`,
+    image: frontEndOnlineSore,
+    url: 'https://front-end-online-store-omega.vercel.app/',
+  },
+  {
+    name: "APP de Receitas",
+    description: `Projeto de conclusão de Front-end. Desenvolvido utilizando React, Context API, Hooks e metodologias ágeis`,
+    image: frontEndOnlineSore,
+    url: 'https://recipes-re-appl.vercel.app/',
+  }
 ];
 
-const Portfolio = () => {
+const Projetos = () => {
   const classes = useStyles();
   return (
     <Box component="div" className={classes.mainContainer}>
@@ -39,7 +52,7 @@ const Portfolio = () => {
         {projects.map((project, i) => (
           <Grid item xs={12} sm={8} md={4} key={i}>
             <Link
-              to={{ pathname: 'https://rafaelsantosmg.github.io/project-shopping-cart/' }}
+              to={{ pathname: project.url }}
               target="_blank"
             >
               <Card className={classes.cardContainer}>
@@ -68,4 +81,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Projetos;
