@@ -116,7 +116,37 @@ const Resume = () => {
       <Typography variant="h4" align="center" className={ classes.heading }>
         Working Experience
       </Typography>
-      <Box component="div" className={ classes.timeLine }>
+      <Box component="div" className={classes.timeLine}>
+      <Typography
+          variant="h2"
+          className={ `${classes.timeLineYear} ${classes.timeLineItem}` }
+        >
+          2022
+        </Typography>
+        <Box component="div" className={ classes.timeLineItem }>
+          <Typography
+            variant="h5"
+            align="center"
+            className={ classes.subHeading }
+          >
+            Summer Job de Instrução
+          </Typography>
+          <Typography variant="body1" align="center" className={ classes.body1 }>
+            Trybe
+          </Typography>
+          <Typography
+            variant="subtitle1"
+            align="center"
+            className={ classes.subtitle1 }
+          >
+            Responsável por realizar monitorias técnicas individuais e coletivas,
+            revisão de conteúdo de forma síncrona e suporte por Slack para resolução de dúvidas.
+            Os conteúdos abordados para monitoria e revisão incluem:
+            Fundamentos do Desenvolvimento Web contendo HTML, CSS,
+            JAVASCRIPT e testes automatizados com Jest. Front-end passando por REACT e REDUX.
+            Back-end abordando tecnologias como Mongo, SQL e NODEJS e o módulo de Ciências da Computação.
+          </Typography>
+          </Box>
         <Typography
           variant="h2"
           className={ `${classes.timeLineYear} ${classes.timeLineItem}` }
