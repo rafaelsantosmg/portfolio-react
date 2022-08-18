@@ -32,7 +32,7 @@ const projects = [
     name: "Full-Stack Ebytr",
     description: `Projeto referente a Blitz de carreira da Trybe, onde fomos provocados a fazer uma aplicação Full-Stack para Criação, Edição e Deleção de Tarefas. O objetivo foi disponibilizar um front-end para o colaborador se cadastrar e poder fazer controle das tarefas.`,
     image: ebytr,
-    url: 'https://recipes-re-appl.vercel.app/',
+    url: 'https://github.com/rafaelsantosmg/full-stack-ebytr',
   },
   {
     name: "Front-End Shopping Cart",

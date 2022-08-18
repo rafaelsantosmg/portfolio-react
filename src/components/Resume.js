@@ -169,9 +169,10 @@ const Resume = () => {
             align="center"
             className={ classes.subtitle1 }
           >
-            Atuava como gerente geral responsável pela administração do
-            estoque e todo sistema informatizado!
-            Tive um longo aprendizado em comunicação, perincipalmente escuta ativa!
+            Instalação de Softwares e Redes, Implantação e Administração 
+            de sistema de Estoque, Vendas, Instalação e Manutenção Elétricas,
+            Atendimento a Cliente, Fornecedores, Implantação de Sistemas de
+            Monitoramento e Segurança.
           </Typography>
         </Box>
         <Typography
@@ -196,7 +197,9 @@ const Resume = () => {
             align="center"
             className={ classes.subtitle1 }
           >
-            Suporte técnico em geral
+            Suporte a usuário, Experiência como técnico alocado, Help-Desk. 
+            Técnico de Laboratório, instalação e projetos de cabeamento de redes.
+            Atendimento de campo.
           </Typography>
         </Box>
         <Typography
@@ -222,7 +225,10 @@ const Resume = () => {
             align="center"
             className={ classes.subtitle1 }
           >
-            Suporte técnico em geral
+            Atividades exercidas: Manutenção de Hardware, Instalações de Softwares, Manutenção e instalação de redes, Switch,
+            Roteadores LAN e Wirelles, Atendimento em campo a clientes, Suporte on-line via VNC e Conexão Remota,
+            Atendimento Help Desk, Manutenção preventiva e corretiva nos sistemas operacionais Win9X, ME, 2000, 2000 e 2003
+            Server, XP, Vista e conhecimentos básicos em Linux.
           </Typography>
         </Box>
       </Box>
