@@ -66,7 +66,7 @@ const projects = [
   },
 ];
 
-const Projetos = () => {
+const Projects = () => {
   const classes = useStyles();
   return (
     <Box component="div" className={classes.mainContainer}>
@@ -103,4 +103,4 @@ const Projetos = () => {
   );
 };
 
-export default Projetos;
+export default Projects;

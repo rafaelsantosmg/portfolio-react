@@ -119,15 +119,49 @@ const About = () => {
             align="center"
             className={ classes.subtitle1 }
           >
+            <h1>
+              Desenvolvedor Web Full Stack Junior
+            </h1>
             <p>
-              Sou apaixonado por tecnologia e área de desenvolvimento, pró-ativo à ideá nas quais compete a equipe solucionar problemas, pró-atividades na qual se refere também na busca de qualidade do serviço, esforçado para novas atividades que sejam desconhecidas, aprendizagem rápida, dinâmico e responsável.
+              Sou apaixonado por tecnologia e educação, principalmente área de
+              desenvolvimento, estou sempre disposto a encarar novos desafios e
+              aprender novas tecnologias, e culturas que engajam e impactam na
+              vida de outras pessoas, adoro estar em ambientes colaborativos,
+              com alto nível de diversidade, onde podemos nos comunicar e nos
+              desenvolver com outras pessoas que também prezam por conexões humanas.
             </p>
-            <p>
-              Sou estudante da Trybe Curso de Desenvolvimento Web Full Stack (Front-End e Back End), também estudante de Ciências da Computação pela Estácio.
-            </p>
-            <p>
-              Apoio qualquer atividade em grupo, e estou sempre disposto a encarar novos desafios, adoro estar em ambientes colaborativos, com alto nível de diversidade, onde podemos nos comunicar e nos desenvolver com outras pessoas que também prezam por conexões humanas e sou uma pessoa extremamente sociável.
-            </p>
+          </Typography>
+        </Box>
+        <Box component="div" className={ classes.timeLineItem }>
+          <Typography
+            variant="subtitle1"
+            align="center"
+            className={ classes.subtitle1 }
+          >
+            <h1>
+              Principais Tecnologias
+            </h1>
+            <ul style={ { listStyle: "none", paddingLeft: "0" } }>
+              <li>React</li>
+              <li>Redux com react</li>
+              <li>Context api</li>
+              <li>React hooks</li>
+              <li>Router</li>
+              <li>Jest</li>
+              <li>Docker</li>
+              <li>MySQL</li>
+              <li>Postgres</li>
+              <li>NoSQL - MongoDB</li>
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>Mocha</li>
+              <li>APIs REST</li>
+              <li>JWT</li>
+              <li>ORM - Sequelize - TypeORM</li>
+              <li>TypeScript</li>
+              <li>POO</li>
+              <li>SOLID</li>
+            </ul>
           </Typography>
         </Box>
       </Grid>

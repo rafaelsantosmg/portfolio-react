@@ -3,8 +3,8 @@ import { Route, Switch } from "react-router-dom";
 import Home from "../components";
 import Resume from "../components/Resume";
 import About from '../components/About';
-import Projetos from "../components/Projetos";
-// import Contact from "../components/Contact";
+import Projects from "../components/Projects";
+import Contact from "../components/Contact";
 
 export default function Routes() {
   return (
@@ -12,8 +12,8 @@ export default function Routes() {
       <Route exact path="/" component={ Home } />
       <Route exact path="/resume" component={ Resume } />
       <Route exact path="/about" component={ About } />
-      <Route exact path="/projetos" component={ Projetos } />
-      {/* <Route exact path="/contact" component={ Contact } /> */}
+      <Route exact path="/projects" component={ Projects } />
+      <Route exact path="/contact" component={ Contact } />
     </Switch>
   );
 }
